@@ -1,8 +1,8 @@
-name: Gree2MQTT
+name: Gree2MQTT VRF
 version: 1.0.0
 slug: gree2mqtt
 description: Integrate WiFi GREE protocol HVAC devices with HA
-url: https://github.com/guntiss/gree2mqtt-ha-addon
+url: https://github.com/3D-Dream-it/gree2mqtt-ha-addon-vrf
 arch:
   - aarch64
   - amd64
