@@ -16,7 +16,7 @@ class HOMEASSISTANT_DISCOVERY{
     constructor (options) {
         this.debug = options.debug || false
 
-        if(!options.device_mac || !options.device_name || !options.mqttClient || !options.mqttDeviceTopic)
+        if(!options.device_mac || !options.mqttClient || !options.mqttDeviceTopic)
             throw '[HOMEASSISTANT_DISCOVERY][Fatal] Missing required parameter.'
         this.device_mac = options.device_mac
         this.device_name = options.device_name
