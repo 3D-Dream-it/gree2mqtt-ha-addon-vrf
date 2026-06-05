@@ -1,5 +1,5 @@
 {
-    "name": "Gree2MQTT",
-    "url": "https://github.com/guntiss/gree2mqtt-ha-addon",
-    "maintainer": "guntiss"
+    "name": "Gree2MQTT VRF",
+    "url": "https://github.com/3D-Dream-it/gree2mqtt-ha-addon-vrf",
+    "maintainer": "3D-Dream-it"
 }
