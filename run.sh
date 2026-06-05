@@ -41,6 +41,7 @@ else
 	MQTT_TOPIC_PREFIX=$(jq -r ".devices[0].mqtt_topic_prefix" $CONFIG_PATH);
 	echo "Running single instance for $HVAC_HOST"
 	/usr/bin/node --watch index.js \
+	    --polling-interval="5" \
 		--hvac-host="${HVAC_HOST}" \
 		--mqtt-broker-url="${MQTT_BROKER_URL}" \
 		--mqtt-topic-prefix="${MQTT_TOPIC_PREFIX}" \
